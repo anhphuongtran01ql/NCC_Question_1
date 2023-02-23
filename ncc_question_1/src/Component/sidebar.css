@@ -1,0 +1,32 @@
+.sidebar-container {
+    position: absolute;
+}
+
+.sidebar-list {
+    position: fixed;
+    overflow: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 12%;
+    background-color: #191718;
+}
+
+.sidebar-item a {
+    display: block;
+    color: #AAAAAA;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-bottom: solid 1px #5C5C5C;
+}
+
+.sidebar-item a.active {
+    background-color: #5C5C5C;
+    color: white;
+}
+
+.sidebar-item a:hover:not(.active) {
+    background-color: #5C5C5C;
+    color: white;
+}

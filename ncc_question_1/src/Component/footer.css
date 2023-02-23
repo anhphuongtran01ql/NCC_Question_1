@@ -1,0 +1,15 @@
+.footer-container {
+    margin-left: 14%;
+    padding: 16px 16px;
+    /* border-top: solid 1px #DEDEDE; */
+}
+
+p.footer-text {
+    padding: 0;
+    margin: 0;
+}
+
+hr.solid {
+    margin: 0;
+    border-top: 0px solid #bbb;
+}
